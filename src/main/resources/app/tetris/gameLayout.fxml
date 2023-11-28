@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import java.net.URL?>
+
+
+<Pane xmlns:fx="http://javafx.com/fxml" fx:controller="app.tetris.Controller">
+  <VBox layoutX="243" layoutY="20" alignment="CENTER" styleClass="vbox">
+    <VBox alignment="CENTER">
+      <Label text="Score: " styleClass="scoreClass" />
+      <Text text="text" styleClass="scoreClass" />
+    </VBox>
+    <VBox alignment="CENTER">
+      <Label text="Next Piece" styleClass="nextPieceLabel" />
+    </VBox>
+    <Button text="New Game" styleClass="ipadDarkGrey" />
+    <ToggleButton text="Pause" styleClass="ipadDarkGrey" />
+
+  </VBox>
+
+  <stylesheets>
+    <URL value="@window_style.css" />
+  </stylesheets>
+
+
+</Pane>
