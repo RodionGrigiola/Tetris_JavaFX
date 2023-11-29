@@ -6,7 +6,12 @@
 <?import java.net.URL?>
 
 
-<Pane xmlns:fx="http://javafx.com/fxml" fx:controller="app.tetris.Controller">
+<Pane xmlns:fx="http://javafx.com/fxml" fx:controller="app.tetris.GuiController">
+  <BorderPane styleClass="playArea">
+    <center>
+      <GridPane fx:id="gamePane1" />
+    </center>
+  </BorderPane>
   <VBox layoutX="243" layoutY="20" alignment="CENTER" styleClass="vbox">
     <VBox alignment="CENTER">
       <Label text="Score: " styleClass="scoreClass" />

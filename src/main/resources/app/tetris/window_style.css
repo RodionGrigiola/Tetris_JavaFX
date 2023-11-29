@@ -6,6 +6,12 @@
     -fx-spacing: 12;
 }
 
+.playArea {
+    -fx-border-color: yellow;
+    -fx-border-width: 8px;
+    -fx-border-radius: 8px;
+}
+
 .scoreClass {
     -fx-font-family: "Let's go Digital";
     -fx-font-size: 38;
