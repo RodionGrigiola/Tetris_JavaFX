@@ -5,4 +5,6 @@ module app.tetris {
 
     opens app.tetris to javafx.fxml;
     exports app.tetris;
+    exports Pieces;
+    opens Pieces to javafx.fxml;
 }

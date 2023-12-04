@@ -7,9 +7,10 @@
 
 
 <Pane xmlns:fx="http://javafx.com/fxml" fx:controller="app.tetris.GuiController">
+  <GridPane fx:id="piecePanel" vgap="1" hgap="1"/>
   <BorderPane styleClass="playArea">
     <center>
-      <GridPane fx:id="gamePane1" />
+      <GridPane fx:id="gamePanel" />
     </center>
   </BorderPane>
   <VBox layoutX="243" layoutY="20" alignment="CENTER" styleClass="vbox">
@@ -28,6 +29,5 @@
   <stylesheets>
     <URL value="@window_style.css" />
   </stylesheets>
-
 
 </Pane>
