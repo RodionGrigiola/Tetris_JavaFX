@@ -1,4 +1,4 @@
-package Pieces;
+package app.tetris.Pieces;
 
 import java.util.ArrayList;
 import java.util.List;

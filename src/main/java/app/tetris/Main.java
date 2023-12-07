@@ -11,10 +11,10 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("gameLayout.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 380, 500);
+        Scene scene = new Scene(fxmlLoader.load(), 390, 500);
         GuiController controller = fxmlLoader.getController();
 
-        stage.setTitle("Hello Tetris!");
+        stage.setTitle("Tetris!");
         stage.setScene(scene);
         stage.show();
 

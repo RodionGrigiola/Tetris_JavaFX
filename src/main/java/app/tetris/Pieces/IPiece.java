@@ -1,4 +1,4 @@
-package Pieces;
+package app.tetris.Pieces;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,8 +7,8 @@ public class IPiece implements Piece {
 
     private final List<int[][]> pieceMatrix = new ArrayList<>();
 
-
     public IPiece() {
+        // добавляем вариации фигуры
         pieceMatrix.add(new int[][]{
                 {0, 0, 0, 0},
                 {2, 2, 2, 2},

@@ -12,6 +12,24 @@
     -fx-border-radius: 8px;
 }
 
+.bonusStyle {
+    -fx-font-size: 40px;
+    -fx-font-weight: bold;
+}
+
+.nextPiece {
+    -fx-border-width: 2px;
+    -fx-border-color: whitesmoke;
+    -fx-border-radius: 17px;
+}
+
+.nextPieceText {
+    -fx-font-family: "Woof woof";
+    -fx-padding: 20px 0 0 0;
+    -fx-font-size: 16px;
+    -fx-text-fill: yellow;
+}
+
 .scoreClass {
     -fx-font-family: "Let's go Digital";
     -fx-font-size: 38;
@@ -41,4 +59,17 @@
     -fx-font-weight: bold;
     -fx-text-fill: white;
     -fx-effect: dropshadow(three-pass-box, rgba(255, 255, 255, 0.2), 1, 0.0, 0, 1);
+}
+
+.gameOverStyle {
+    -fx-font-family: "Let's go Digital";
+    -fx-font-size: 48;
+    -fx-background-color: red;
+}
+
+.help {
+    -fx-fill: white;
+    -fx-alignment: center-left;
+    -fx-text-alignment: left;
+    -fx-font-size: 10px;
 }

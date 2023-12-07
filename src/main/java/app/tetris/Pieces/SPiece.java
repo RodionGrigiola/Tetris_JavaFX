@@ -1,24 +1,26 @@
-package Pieces;
+package app.tetris.Pieces;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ZPiece implements Piece {
+public class SPiece implements Piece  {
+
     private final List<int[][]> pieceMatrix = new ArrayList<>();
 
-    public ZPiece() {
+    public SPiece() {
         pieceMatrix.add(new int[][] {
                 {0, 0, 0, 0},
-                {7, 7, 0, 0},
-                {0, 7, 7, 0},
+                {0, 5, 5, 0},
+                {5, 5, 0, 0},
                 {0, 0, 0, 0}
         });
         pieceMatrix.add(new int[][] {
-                {0, 7, 0, 0},
-                {7, 7, 0, 0},
-                {7, 0, 0, 0},
+                {5, 0, 0, 0},
+                {5, 5, 0, 0},
+                {0, 5, 0, 0},
                 {0, 0, 0, 0}
         });
+
     }
 
     public List<int[][]> getPieceMatrix() {
